@@ -1,0 +1,23 @@
+{
+  "main": "lib",
+  "module": "src",
+  "scripts": {
+    "build": "letool transpile",
+    "cover": "letool coverage",
+    "lint": "letool lint",
+    "setup": "letool setup",
+    "test": "letool mocha"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "letool": "latest"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
